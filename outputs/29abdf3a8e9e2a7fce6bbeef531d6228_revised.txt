@@ -1,0 +1,94 @@
+**User Guide**
+
+### Understanding MoEngage Data Centers
+MoEngage operates multiple data centers to cater to different needs. When you sign up with us, you become a part of a specific data center. We will provide you with access to the dashboard URL, SDK, and REST API endpoints specific to your data center.
+
+### Selecting the Right Data Center for Your Needs
+Before signing up, consult your MoEngage Onboarding Manager to determine the most suitable data center for your requirements. Once signed up, you can easily identify your data center from the Dashboard URL provided.
+
+For more information on MoEngage data centers, [raise a support ticket](#).
+
+### List of MoEngage Data Centers
+The table below outlines the names, URLs, and REST API hosts associated with each data center:
+
+| Data Center Name | Dashboard URL                  | REST API Host               |
+|------------------|--------------------------------|-----------------------------|
+| DC-01            | [https://dashboard-01.moengage.com](#) | [https://api-01.moengage.com](#) |
+| DC-02            | [https://dashboard-02.moengage.com](#) | [https://api-02.moengage.com](#) |
+| DC-03            | [https://dashboard-03.moengage.com](#) | [https://api-03.moengage.com](#) |
+| DC-04            | [https://dashboard-04.moengage.com](#) | [https://api-04.moengage.com](#) |
+| DC-05            | [https://dashboard-05.moengage.com](#) | [https://api-05.moengage.com](#) |
+| DC-06            | [https://dashboard-06.moengage.com](#) | [https://api-06.moengage.com](#) |
+
+### Importance of Different Data Centers
+Hosting multiple instances of our application across various data centers allows us to optimize services by distributing data effectively. Additionally, there may be compliance requirements necessitating data storage in specific geographies.
+
+### Region-Specific Data Center Recommendations
+If you require data storage in a specific region, follow these recommendations:
+
+- For US region: DC-01 or DC-04
+- For EU region: DC-02
+- For India region: DC-03
+- For Singapore region: DC-05
+- For Indonesia region: DC-06
+
+If no specific region is required, signing up with any data center will have no impact, as all data centers offer similar functionalities, SLAs, and latencies.
+
+### Integrating with MoEngage SDK
+When integrating MoEngage SDK for tracking user data, ensure alignment with your data center. Refer to the SDK documentation for integration steps specific to Android, iOS, and Web platforms.
+
+### Mapping Data Centers and Integration Keys
+The table below illustrates the mapping between data centers, dashboard URLs, and integration keys for Android, iOS, and Web platforms:
+
+| Data Center   | Dashboard URL                     | Android / iOS | Web  |
+|---------------|-----------------------------------|---------------|------|
+| Data Center 1 | [https://dashboard-01.moengage.com/](#) | DATA_CENTER_01 | DC_1 |
+| Data Center 2 | [https://dashboard-02.moengage.com/](#) | DATA_CENTER_02 | DC_2 |
+| Data Center 3 | [https://dashboard-03.moengage.com/](#) | DATA_CENTER_03 | DC_3 |
+| Data Center 4 | [https://dashboard-04.moengage.com/](#) | DATA_CENTER_04 | DC_4 |
+| Data Center 5 | [https://dashboard-05.moengage.com/](#) | DATA_CENTER_05 | DC_5 |
+| Data Center 6 | [https://dashboard-06.moengage.com/](#) | DATA_CENTER_06 | DC_6 |
+
+### Identifying REST API Endpoints
+When utilizing MoEngage REST APIs, refer to the table below for the corresponding API Endpoints based on your data center:
+
+| Data Center   | Dashboard URL                     | REST API Host             |
+|---------------|-----------------------------------|---------------------------|
+| Data Center 1 | [https://dashboard-01.moengage.com/](#) | [https://api-01.moengage.com/v1/](#) |
+| Data Center 2 | [https://dashboard-02.moengage.com/](#) | [https://api-02.moengage.com/v1/](#) |
+| Data Center 3 | [https://dashboard-03.moengage.com/](#) | [https://api-03.moengage.com/v1/](#) |
+| Data Center 4 | [https://dashboard-04.moengage.com/](#) | [https://api-04.moengage.com/v1/](#) |
+| Data Center 5 | [https://dashboard-05.moengage.com/](#) | [https://api-05.moengage.com/v1/](#) |
+| Data Center 6 | [https://dashboard-06.moengage.com/](#) | [https://api-06.moengage.com/v1/](#) |
+
+For further assistance or queries, feel free to [contact us](#).
+
+---
+*Previous: Overview - Data*
+*Next: Event Naming Conventions*
+
+*Table of Contents:*
+- List of Data Centers
+- Significance of having different data centers
+- Signing up for region-specific data centers
+- Re-direction of data to different data centers from SDK
+- Identifying the REST API Endpoint for your data center*
+
+*Was this article helpful?*
+- Yes
+- No
+
+*How can we improve this article?*
+- Need more information
+- Difficult to understand
+- Inaccurate or irrelevant content
+- Missing broken link
+- Others
+
+*Enter Comments*
+*Enter Email*
+*Add Screenshot (Optional)*
+- Only .jpeg, .png files below 1MB
+
+*Cancel*
+*Submit*

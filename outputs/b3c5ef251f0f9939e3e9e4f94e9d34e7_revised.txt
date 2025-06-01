@@ -1,0 +1,51 @@
+**User Guide: Data**
+
+**Key Concepts: Fair Usage Policy (FUP)**
+
+**Overview**
+
+A Fair Usage Policy (FUP) is a set of guidelines and rules designed to ensure equal and non-discriminatory access to MoEngage resources for all customers.
+
+**Benefits of FUP:**
+
+- Secures your workspace from unregulated external data tracking, maintaining data integrity and user count.
+- Ensures fair allocation of MoEngage resources among all customers, preventing data tracking issues caused by improper integrations.
+
+**How Does the Fair Usage Policy Work?**
+
+MoEngage sets data request limits based on recent trends to prevent FUP violations. If a user exceeds the limit:
+- Temporary data tracking block for a specific time based on request frequency.
+- Permanent data tracking block after three consecutive breaches.
+
+**Fair Usage Policy Limits and Actions**
+
+| Time Interval | Maximum Data Requests Allowed | Action Taken |
+|---------------|-------------------------------|--------------|
+| 1 minute      | 100                           | Block data tracking for 1 hour |
+| 5 minutes     | 300                           | Block data tracking for 1 hour |
+| 1 hour        | 500                           | Block data tracking for 24 hours |
+| 1 day         | 1000                          | Block data tracking for 24 hours |
+
+*Note: A user faces permanent data tracking block after three consecutive breaches.*
+
+**FAQ**
+
+**Is the maximum data requests limit configurable within a time interval?**
+No, it is not configurable.
+
+**Is the FUP evaluated at the user level or device level?**
+FUP is evaluated at the user level.
+
+**Was this article helpful?**
+Yes
+No
+
+*How can we improve this article?*
+- Your Feedback
+- Need more information
+- Difficult to understand
+- Inaccurate or irrelevant content
+- Missing broken link
+- Others
+
+*Submit*

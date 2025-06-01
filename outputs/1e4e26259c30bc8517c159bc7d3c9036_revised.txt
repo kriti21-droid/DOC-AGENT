@@ -1,0 +1,47 @@
+User Guide: Event Naming Conventions
+
+**Key Concepts**
+
+When it comes to naming events, following conventions is crucial for ensuring consistency and clarity in your tracking implementation. Clear and intuitive event names facilitate effective communication and analysis of event data. By using human-readable event names, you can convey the purpose of the event without the need for additional explanation.
+
+**Best Practices**
+
+- Use clear and descriptive names:
+  - Choose event names that accurately describe the user action being tracked in a concise and non-technical manner.
+- Be consistent:
+  - Establish and adhere to a set of naming conventions throughout your tracking implementation.
+- Use lowercase and underscores or dashes:
+  - Always use lowercase for event names and separate multiple words with underscores (_) or dashes (-) for improved readability (e.g., "video_playback_started").
+- Use verbs for action-based events:
+  - Start event names with verbs to indicate actions taken (e.g., "user_signed_in").
+- Include relevant object or context information:
+  - Incorporate specific object or context details in the event name for clarity (e.g., "product_purchased").
+- Avoid abbreviations or acronyms:
+  - Opt for complete words over abbreviations to prevent confusion among team members.
+- Keep event names concise:
+  - Strive for brevity while maintaining clarity to ensure ease of use.
+
+**Recommendations**
+
+- Aim for a minimum of 5 characters in event names.
+- Limit user/event property values to 512 characters.
+- Escape non-ASCII characters.
+- Avoid starting user or event attributes with "moe".
+- Use consistent naming across mobile apps and websites.
+- Group similar events with a common prefix.
+- Use underscores or hyphens between words instead of spaces.
+- Employ more general events over specific ones for meaningful insights.
+- Do not capture certain user actions like screen loads or unloads.
+- Avoid capturing page views as events or page URLs as event properties.
+- Maintain distinct names for object attributes and keys within objects.
+
+**Prohibited Characters**
+
+Do not use the following special characters in event names:
+- $, ., <, +, %, >, !, `, &, *, #, |, {, ?, ", =, }, /, :, emojis, \, blank spaces, @, '
+
+This list helps prevent common naming errors. For further assistance, contact our support team.
+
+**Reserved Keywords**
+
+MoEngage standard events are typically tracked as 'moe_eventname'. Avoid naming custom events starting with "moe" to prevent duplicacy. Refer to MoEngage's list of standard/derived events and ensure uniqueness in your custom event names.

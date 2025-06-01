@@ -1,0 +1,6 @@
+openai
+requests
+beautifulsoup4
+textstat
+python-dotenv
+requests-html
